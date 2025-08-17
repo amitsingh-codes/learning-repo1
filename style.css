@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.container{
+    margin-top: 21vh;
+    margin-left: 80vh;
+    border: .1px solid #ff00ff;
+    box-shadow: 0 0 5px #ff00ff,
+                0 0 15px #ff00ff,
+                0 0 30px #ff00ff,
+                0 0 60px #ff00ff;
+    backdrop-filter: blur(10px);
+    height: 409px;
+    width: 325px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10%;
+    left: 100%;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    border: .1px solid #ff00ff;
+    box-shadow: 0 0 5px #ff00ff,
+                0 0 15px #ff00ff,
+                0 0 30px #ff00ff,
+                0 0 60px #ff00ff;
+    background: rgba(0, 0, 0, 0.2);
+}
+.name h2{
+    color: white;
+    font-size: 33px;
+    position: relative;
+    top: 128px;
+    left: -25px;
+}
+.bio{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 128px;
+    left: -44px;
+}
+
+.socials :last-child{
+    position: relative;
+    top: 90px;
+    left: -26px;
+} 
+
+.socials :first-child{
+    position: relative;
+    top: 90px;
+    left: -34px;
+}
+
+.socials :nth-child(2){
+    position: relative;
+    top: 90px;
+    left: -34px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.sociallinks{
+    margin: 3px;
+}
+
+.socials{
+    margin-left: 17px;
+}
